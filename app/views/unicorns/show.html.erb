@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @unicorn.age %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @unicorn.color %>
+</p>
+
+<p>
+  <strong>Superpower:</strong>
+  <%= @unicorn.superpower %>
+</p>
+
+<p>
+  <strong>Theme song:</strong>
+  <%= @unicorn.theme_song %>
+</p>
+
+<%= link_to 'Edit', edit_unicorn_path(@unicorn) %> |
+<%= link_to 'Back', unicorns_path %>
