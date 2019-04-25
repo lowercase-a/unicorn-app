@@ -5,6 +5,7 @@ class UnicornsController < ApplicationController
   # GET /unicorns.json
   def index
     @unicorns = Unicorn.all
+    # binding.pry
   end
 
   # GET /unicorns/1
